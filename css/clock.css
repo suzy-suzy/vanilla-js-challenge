@@ -1,0 +1,22 @@
+.clock {
+    margin-top: 60px;
+    z-index: 1;
+}
+
+.clock > h1 {
+    font-size: 80px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 60%;
+}
+
+.clock > h1 > span {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    .clock {margin-top: 30px;}
+    .clock > h1 {font-size: 50px;}
+    .clock > h1 > span {font-size: 16px;}
+}
